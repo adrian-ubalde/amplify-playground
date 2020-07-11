@@ -69,7 +69,6 @@ Resources:
       BranchName: main
       AppId: !GetAtt AmplifyApp.AppId
       Description: Main Branch
-      EnableAutoBuild: false
       Tags:
         - Key: Name
           Value: todo-main
