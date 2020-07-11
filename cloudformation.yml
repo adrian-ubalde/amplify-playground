@@ -82,7 +82,7 @@ Resources:
       DomainName: !Ref Domain
       AppId: !GetAtt AmplifyApp.AppId
       SubDomainSettings:
-        - Prefix: main
+        - Prefix: todo
           BranchName: !GetAtt AmplifyBranch.BranchName
 
 Outputs:
