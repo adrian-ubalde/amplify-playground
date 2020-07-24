@@ -29,7 +29,7 @@ How do I stop a push of a CloudFormation template change or README update from t
 How do I prevent CloudFormation update bugs from affecting production website?
     Alternatives:
         1) Separate AWS accounts.
-        2) Separate CF-stacks - preprod, prod (and dev)
+        2) Separate CF-stacks - preprod, prod (and dev).
         
 How do I enable pull-request deployments?
 
