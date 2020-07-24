@@ -53,7 +53,7 @@ I chose Amplify Console over Amplify CLI because I think a Continuous Deployment
 What features does CF lack that I need for deploying the Static front-end site?
 * DNS-validated ACM public cerficate for CloudFront distribution
     - Use CDK DnsValidatedCertificate construct?
-        * Con: It's an experimental API
+        * Con: It's an experimental API.
     - Use Amplify?
         - Via console, you can point your Amplify project to your R53-hosted-zone
             which will automatically create a wildcard public cert (in ACM?)
