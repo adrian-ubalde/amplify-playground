@@ -75,6 +75,8 @@ Resources:
           Value: todo-main
         - Key: Branch
           Value: main
+        - Key: TestKey
+          Value: TestValue
 
   AmplifyDomain:
     Type: AWS::Amplify::Domain
