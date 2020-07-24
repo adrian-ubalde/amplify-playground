@@ -21,7 +21,7 @@ aws cloudformation deploy \
 ## Outstanding Questions
 
 How do I stop a push of a CloudFormation template change or README update from triggering a deployment? Would disabling master or other branch auto-builds help?  
-    Alternatives
+    Alternatives:
         1) Separate repos: 1) HTML/JS/CSS files only Git-repo (no readme); 2) CloudFormation repo
         2) Single repo - multiple GitHub builds using ignore/include paths (https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#onpushpull_requestpaths) E.g 1 build for deploying CloudFormation; 1 build for starting Amplify Console Deployment
         3) To skip an automatic build on a particular commit, include the text [skip-cd] at the end of the commit message. Can a developer consistently do this correctly? What if a push includes multiple commits, each with/without the [skip-cd] message? https://docs.aws.amazon.com/amplify/latest/userguide/build-settings.html#skip-build-for-a-commit
