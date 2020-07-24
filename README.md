@@ -36,7 +36,7 @@ How do I enable pull-request deployments?
 ## Decision Log
 
 Amplify Console
-* How to authorize Amplify to my Github repos via code? N/A - manual step wasn't required when deploying Amplify App via Amplify Console/CloudFormation+AWS-CLI
+* How to authorize Amplify to my Github repos via code? N/A - manual step wasn't required when deploying Amplify App via Amplify Console/CloudFormation+AWS-CLI.
 
 I chose to use Amplify Console to host my website because it automatically takes care of hosted-zone managing and enabling HTTPS (which CloudFormation doesn't offer out of the box). 
 
