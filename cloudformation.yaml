@@ -41,7 +41,7 @@ Resources:
     Properties:
       Name: TodoApp
       Repository: !Ref Repository
-      Description: VueJS Todo example app
+      Description: VueJS Todo example app 
       OauthToken: !Ref OauthToken
       BuildSpec: |-
         version: 0.1
