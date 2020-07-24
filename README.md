@@ -36,7 +36,7 @@ How do I enable pull-request deployments?
 ## Decision Log
 
 Amplify Console
-* How to authorize Amplify to my Github repos via code? N/A - manual step wasn't required when deploying Amplify App via Amplify Console/CloudFormation+AWS-CLI
+* How to authorize Amplify to my Github repos via code? N/A - manual step wasn't required when deploying Amplify App via Amplify Console/CloudFormation+AWS-CLI.
 
 I chose to use Amplify Console to host my website because it automatically takes care of hosted-zone managing and enabling HTTPS (which CloudFormation doesn't offer out of the box). 
 
@@ -53,7 +53,7 @@ I chose Amplify Console over Amplify CLI because I think a Continuous Deployment
 What features does CF lack that I need for deploying the Static front-end site?
 * DNS-validated ACM public cerficate for CloudFront distribution
     - Use CDK DnsValidatedCertificate construct?
-        * Con: It's an experimental API
+        * Con: It's an experimental API.
     - Use Amplify?
         - Via console, you can point your Amplify project to your R53-hosted-zone
             which will automatically create a wildcard public cert (in ACM?)
